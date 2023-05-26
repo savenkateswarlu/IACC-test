@@ -32,7 +32,7 @@ Steps to perform:
     stages {
         stage('Checkout') {
             steps {
-            checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/AravindChandrappa/Terraform-Blog.git']]])            
+            checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/savenkateswarlu/IACC-test.git']]])            
 
           }
         }
